@@ -1,0 +1,5 @@
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Network\bin\x64\Develop\Svt.Network.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Network\bin\x64\Develop\Svt.Network.pdb
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Network\obj\x64\Develop\ResolveAssemblyReference.cache
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Network\obj\x64\Develop\Svt.Network.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Network\obj\x64\Develop\Svt.Network.pdb

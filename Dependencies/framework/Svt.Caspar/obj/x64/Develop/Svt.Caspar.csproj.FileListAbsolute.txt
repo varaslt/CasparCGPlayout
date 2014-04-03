@@ -1,0 +1,11 @@
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\bin\x64\Develop\Svt.Caspar.dll.config
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\bin\x64\Develop\Svt.Caspar.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\bin\x64\Develop\Svt.Caspar.pdb
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\bin\x64\Develop\Svt.Network.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\bin\x64\Develop\Svt.Network.pdb
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\obj\x64\Develop\ResolveAssemblyReference.cache
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\obj\x64\Develop\Svt.Caspar.Properties.Resources.resources
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\obj\x64\Develop\GenerateResource-ResGen.read.1.tlog
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\obj\x64\Develop\GenerateResource-ResGen.write.1.tlog
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\obj\x64\Develop\Svt.Caspar.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\framework\Svt.Caspar\obj\x64\Develop\Svt.Caspar.pdb

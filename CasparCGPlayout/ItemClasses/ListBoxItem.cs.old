@@ -1,0 +1,125 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Drawing;
+using CasparCGPlayout.Utils;
+
+namespace CasparCGPlayout.ItemClasses
+{
+    public enum TypeEnum
+    {
+        Video,
+        CG
+    }
+
+    class ListBoxItem
+    {
+        private string _title;
+        private string _details;
+        private Image _itemImage;
+        private int _id;
+        private readonly WhatNextEnum _whatnext;
+        Rectangle _timeStartBounds;
+        Rectangle _clipIdBounds;
+        Rectangle _display1Bounds;
+        Rectangle _display2Bounds;
+        Rectangle _lengthOfClipBounds;
+
+        public int id { get; set; }
+        public string timeStart { get; set; }
+        public string clipID { get; set; }
+        public string display1 { get; set; }
+        public string display2 { get; set; }
+        public TimeSpan lengthOfClip { get; set; }
+        public TypeEnum type { get; set; }
+        public bool isPlaying { get; set; }
+        public int inFrames { get; set; }
+        public int outFrames { get; set; }
+        public Image itemImage { get; set; }
+         
+
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public ListBoxItem(int id, string timestart, string clipid, string display1, string display2, TimeSpan lengthofclip, TypeEnum type, WhatNextEnum whatnext, int inframes, int outframes, Image itemImage)
+        {
+            isPlaying = false;
+            this.id = id;
+            this.timeStart = timestart;
+            this.clipID = clipid;
+            this.display1 = display1;
+            this.display2 = display2;
+            this.lengthOfClip = lengthofclip;
+            this.type = type;
+            this._whatnext = whatnext;
+            this.inFrames = inframes;
+            this.outFrames = outframes;
+            this.itemImage = itemImage;
+        }
+
+        public string Title
+        {
+            get { return _title; }
+            set { _title = value; }
+        }
+
+        public string Details
+        {
+            get { return _details; }
+            set { _details = value; }
+        }
+
+        public Image ItemImage
+        {
+            get { return _itemImage; }
+            set { _itemImage = value; }
+        }
+
+        public void drawItem(DrawItemEventArgs e, Padding margin,
+                             Font titleFont, Font detailsFont, StringFormat aligment,
+                             Size imageSize)
+        {
+
+            // if selected, mark the background differently
+            if ((e.State & DrawItemState.Selected) == DrawItemState.Selected)
+            {
+                e.Graphics.FillRectangle(Brushes.CornflowerBlue, e.Bounds);
+            }
+            else
+            {
+                e.Graphics.FillRectangle(Brushes.Beige, e.Bounds);
+            }
+
+            // draw some item separator
+            e.Graphics.DrawLine(Pens.DarkGray, e.Bounds.X, e.Bounds.Y, e.Bounds.X + e.Bounds.Width, e.Bounds.Y);
+
+            // draw item image
+            e.Graphics.DrawImage(this.ItemImage, e.Bounds.X + margin.Left, e.Bounds.Y + margin.Top, imageSize.Width, imageSize.Height);
+
+            // calculate bounds for title text drawing
+            Rectangle titleBounds = new Rectangle(e.Bounds.X + margin.Horizontal + imageSize.Width,
+                                                  e.Bounds.Y + margin.Top,
+                                                  e.Bounds.Width - margin.Right - imageSize.Width - margin.Horizontal,
+                                                  (int)titleFont.GetHeight() + 2);
+
+            // calculate bounds for details text drawing
+            Rectangle detailBounds = new Rectangle(e.Bounds.X + margin.Horizontal + imageSize.Width,
+                                                   e.Bounds.Y + (int)titleFont.GetHeight() + 2 + margin.Vertical + margin.Top,
+                                                   e.Bounds.Width - margin.Right - imageSize.Width - margin.Horizontal,
+                                                   e.Bounds.Height - margin.Bottom - (int)titleFont.GetHeight() - 2 - margin.Vertical - margin.Top);
+
+            // draw the text within the bounds
+            e.Graphics.DrawString(this.Title, titleFont, Brushes.Black, titleBounds, aligment);
+            e.Graphics.DrawString(this.Details, detailsFont, Brushes.DarkGray, detailBounds, aligment);
+
+            // put some focus rectangle
+            e.DrawFocusRectangle();
+
+        }
+    }
+}

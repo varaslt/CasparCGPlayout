@@ -1,0 +1,27 @@
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.Osc.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.Osc.pdb
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\DirectShowLib-2005.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\MySql.Data.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.pdb
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\ResolveAssemblyReference.cache
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\Bespoke.Common.Osc.dll
+C:\code\Andy -Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\Bespoke.Common.Osc.pdb
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.Osc.dll
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.Osc.pdb
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.dll
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\DirectShowLib-2005.dll
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\MySql.Data.dll
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.pdb
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\ResolveAssemblyReference.cache
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\Bespoke.Common.Osc.dll
+C:\code\Andy-Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\Bespoke.Common.Osc.pdb
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.Osc.dll
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.Osc.pdb
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.dll
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\DirectShowLib-2005.dll
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\MySql.Data.dll
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\bin\Debug\Bespoke.Common.pdb
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\ResolveAssemblyReference.cache
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\Bespoke.Common.Osc.dll
+C:\code\Personal\CasparCGPlayout\Dependencies\OSCFramework\Bespoke.Common.Osc\src\obj\Debug\Bespoke.Common.Osc.pdb
